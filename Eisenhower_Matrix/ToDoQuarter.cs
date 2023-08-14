@@ -40,13 +40,13 @@ namespace Eisenhower_Matrix
             return ToDoItems;
         }
 
-        //public void ToString()
-        //{
-        //    foreach (ToDoItem item in ToDoItems)
-        //    {
-        //        item.ToString();
-        //    }
-        //}
+        public List<string> ToList() {
+            List<string> ItemsToReturn = new List<string>();
+            foreach(ToDoItem Item in ToDoItems) {
+                ItemsToReturn.Add(Item.ToString());
+            }
+            return ItemsToReturn;
+        }
     }
 }
 
