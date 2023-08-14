@@ -1,0 +1,15 @@
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/bin/Debug/net7.0/Eisenhower_Matrix
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/bin/Debug/net7.0/Eisenhower_Matrix.deps.json
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/bin/Debug/net7.0/Eisenhower_Matrix.runtimeconfig.json
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/bin/Debug/net7.0/Eisenhower_Matrix.dll
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/bin/Debug/net7.0/Eisenhower_Matrix.pdb
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.csproj.AssemblyReference.cache
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.AssemblyInfoInputs.cache
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.AssemblyInfo.cs
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.csproj.CoreCompileInputs.cache
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.dll
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/refint/Eisenhower_Matrix.dll
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.pdb
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/Eisenhower_Matrix.genruntimeconfig.cache
+/Users/sofia/Documents/C#/The_Eisenhower_Matrix_App/Eisenhower_Matrix/obj/Debug/net7.0/ref/Eisenhower_Matrix.dll
