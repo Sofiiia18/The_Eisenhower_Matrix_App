@@ -3,44 +3,31 @@ namespace Eisenhower_Matrix
 {
     public class ToDoItem
     {
-        private string Title;
-        private DateTime Deadline;
-        public bool IsDone { get; set; }
+        public string Title { get; private set; }
+        public DateTime Deadline { get; private set; }
+        public bool IsDone { get; private set; }
 
-        public ToDoItem(string title, DateTime deadline)
-        {
-            Title = title;
-            Deadline = deadline;
+        public ToDoItem(string Title, DateTime Deadline) {
+            this.Title = Title;
+            this.Deadline = Deadline;
             IsDone = false;
         }
-
-        public string GetTitle()
-        {
-            return Title;
-        }
-
-        public DateTime GetDeadline()
-        {
+        public DateTime GetDeadLine() {
             return Deadline;
         }
-
-        public void Mark()
-        {
+        public string GetTitle() {
+            return Title;
+        }
+        public void Mark() {
             IsDone = true;
         }
-
-        public void Unmark()
-        {
+        public void Unmark() {
             IsDone = false;
         }
-
-        public override string ToString()
-        {
-            int day = Deadline.Day;
-            int month = Deadline.Month;
-            if (IsDone)
-                return $"[x] {day}-{month} {Title}";
-            return $"[ ] {day}-{month} {Title}";
+        public override string ToString() {
+            string FormattedDeadLine = Deadline.ToString("dd-MM");
+            string status = IsDone ? "[x]" : "[]";
+            return $"{status} {FormattedDeadLine} {Title}";
         }
     }
 }
