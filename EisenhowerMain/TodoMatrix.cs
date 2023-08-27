@@ -1,20 +1,22 @@
-﻿using System;
-namespace Eisenhower_Matrix
-{
-	public class TodoMatrix {
-        private Dictionary<string, ToDoQuarter> TodoQuarters { get; set; }
+using System;
+using System.Collections.Generic;
+
+
+namespace EisenhowerCore {
+    public class TodoMatrix {
+        private Dictionary<string, TodoQuarter> TodoQuarters { get; set; }
         public TodoMatrix() {
-            TodoQuarters = new Dictionary<string, ToDoQuarter> {
-                {"IU", new ToDoQuarter()},  // important - urgent
-                {"IN", new ToDoQuarter()},  // important - not urgent
-                {"NU", new ToDoQuarter()},  // not important - urgent
-                {"NN", new ToDoQuarter()}   // not important - not urgent
+            TodoQuarters = new Dictionary<string, TodoQuarter> {
+                {"IU", new TodoQuarter()},  // important - urgent
+                {"IN", new TodoQuarter()},  // important - not urgent
+                {"NU", new TodoQuarter()},  // not important - urgent
+                {"NN", new TodoQuarter()}   // not important - not urgent
             };
         }
-        public Dictionary<string, ToDoQuarter> GetQuarters() {
+        public Dictionary<string, TodoQuarter> GetQuarters() {
             return TodoQuarters;
         }
-        public ToDoQuarter GetQuarter(string status) {
+        public TodoQuarter GetQuarter(string status) {
             return TodoQuarters[status];
         }
         public void AddItem(string Title, DateTime DeadLine, bool IsImportant = false) {
@@ -34,4 +36,3 @@ namespace Eisenhower_Matrix
         }
     }
 }
-

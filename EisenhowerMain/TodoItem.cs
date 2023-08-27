@@ -1,13 +1,13 @@
-﻿using System;
-namespace Eisenhower_Matrix
-{
-    public class ToDoItem
+using System;
+
+namespace EisenhowerCore {
+    public class TodoItem
     {
         public string Title { get; private set; }
         public DateTime Deadline { get; private set; }
         public bool IsDone { get; private set; }
 
-        public ToDoItem(string Title, DateTime Deadline) {
+        public TodoItem(string Title, DateTime Deadline) {
             this.Title = Title;
             this.Deadline = Deadline;
             IsDone = false;

@@ -210,7 +210,7 @@ __Instance methods__
 
   Returns private field *todoItems*.
 
-* `ToString()`
+* `ToStringList()`
 
   Returns a formatted list of *todoItems*. There is an expecting output:
 
@@ -247,7 +247,7 @@ __Instance methods__
 
 * `GetQuarters()`
   
-  Returns a private filed *todoQuarters*.
+  Returns a private field *todoQuarters*.
 
 * `GetQuarter(String status)`
 
