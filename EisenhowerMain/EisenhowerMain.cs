@@ -21,8 +21,9 @@ namespace EisenhowerCore {
 
                         bool ValidDeadLine = false;
                         DateTime DeadLine = DateTime.MinValue;
+                        Console.WriteLine();
                         while(!ValidDeadLine) {
-                            Console.Write("Podaj termin ważności (dd-mm):");
+                            Console.Write("Podaj termin ważności (mm-dd):");
                             InputDeadLine = Console.ReadLine();
                             if(DateTime.TryParse(InputDeadLine, out DeadLine)) {
                                 ValidDeadLine = true;
@@ -50,14 +51,10 @@ namespace EisenhowerCore {
 
                         case "2":
                             Console.Clear();
-                            foreach(KeyValuePair<string, TodoQuarter> Quarter in TasksBoard.GetQuarters()) {
-                                Console.WriteLine($"{Quarter.Key}:");
-                                foreach(string Item in Quarter.Value.ToList()) {
-                                    Console.WriteLine(Item);
-                                };
-                                Console.WriteLine("");
-                            }
-                            break;
+
+                            Console.WriteLine(TasksBoard.FormattedMatrix());
+                        
+                        break;
                     case "3":
                         Console.Write("Podaj ćwiartkę w której chcesz odznaczyć/zaznaczyć zadanie (IU | IN | NU  | NN): ");
                         string QuarterInput = Console.ReadLine().ToUpper();
